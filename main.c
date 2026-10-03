@@ -88,7 +88,7 @@ static void usage(const char *program)
         "\n"
         "Options:\n"
         "  -i, --include-system HEADER\n"
-        "  -I, --include-local HEADER\n"
+        "  -I, --include-local /path/to/HEADER\n"
         "  -H, --add-headers-list FILE\n"
         "      Use FILE as the header list\n"
         "      (default: %s)\n",
