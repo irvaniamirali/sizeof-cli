@@ -11,7 +11,7 @@
 #include <unistd.h>
 
 #define SOURCE_SIZE 16384
-#define DEFAULT_HEADERS_FILE "headers.csrc"
+// #define DEFAULT_HEADERS_FILE "/etc/headers.csrc"
 
 static void die(const char *msg)
 {
@@ -88,11 +88,7 @@ static void usage(const char *program)
         "\n"
         "Options:\n"
         "  -i, --include-system HEADER\n"
-        "      Add #include <HEADER>\n"
-        "\n"
         "  -I, --include-local HEADER\n"
-        "      Add #include \"HEADER\"\n"
-        "\n"
         "  -H, --add-headers-list FILE\n"
         "      Use FILE as the header list\n"
         "      (default: %s)\n",
